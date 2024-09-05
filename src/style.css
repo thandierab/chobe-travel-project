@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-image: linear-gradient(to bottom, #331100, #552200, #331100);
+  text-align: justify;
 }
 
 .container {
@@ -13,7 +14,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
     url("../images/chobe-leopard-cover.png");
   background-repeat: none;
   background-size: cover;
@@ -67,7 +68,7 @@ main h2 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 5px;
-  color: #331100;
+  color: #552200;
   opacity: 0.3;
   text-transform: uppercase;
   margin: 0;
@@ -85,7 +86,7 @@ main h4 {
   font-weight: 700;
   font-size: 24px;
   line-height: 1;
-  color: #331100;
+  color: #552200;
   margin: 0;
 }
 
@@ -94,7 +95,7 @@ main h5 {
   font-size: 13px;
   margin: 0;
   line-height: 1;
-  color: #272044;
+  color: #552200;
 }
 
 main p {
@@ -102,20 +103,14 @@ main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #272044;
-  opacity: 0.7;
+  color: #662200;
+  opacity: 0.6;
 }
 
 .img-responsive {
   max-width: 100%;
   aspect-ratio: 1/1;
   display: block;
-}
-
-.elephants-img {
-  width: 500px;
-  height: 500px;
-  object-fit: contain;
 }
 
 .grid {
@@ -171,7 +166,7 @@ main p {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #552200;
+  background-color: #663300;
   text-decoration: none;
 }
 
@@ -188,7 +183,7 @@ section.secondary {
 footer {
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-    url("../images/chobe-sunset-footer.png");
+    url("../images/chobe-sunset-pic.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-image: center;
