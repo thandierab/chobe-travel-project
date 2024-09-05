@@ -13,8 +13,8 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-    url("../images/chobe-jackal-cover.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url("../images/chobe-leopard-cover.png");
   background-repeat: none;
   background-size: cover;
   background-position: center;
@@ -53,6 +53,7 @@ header a {
   text-transform: uppercase;
   text-decoration: none;
   background-color: white;
+  color: #331100;
   padding: 16px 32px;
   display: inline-block;
 }
@@ -107,12 +108,13 @@ main p {
 
 .img-responsive {
   max-width: 100%;
+  aspect-ratio: 1/1;
   display: block;
 }
 
 .elephants-img {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   object-fit: contain;
 }
 
