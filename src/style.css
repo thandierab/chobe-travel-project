@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(to bottom, #331100, #552200, #331100);  
+  background-image: linear-gradient(to bottom, #331100, #552200, #331100);
 }
 
 body p {
@@ -106,7 +106,6 @@ main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: black
   opacity: 0.8;
 }
 
