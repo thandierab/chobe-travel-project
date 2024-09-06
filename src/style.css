@@ -1,6 +1,9 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(to bottom, #331100, #552200, #331100);
+  background-image: linear-gradient(to bottom, #331100, #552200, #331100);  
+}
+
+body p {
   text-align: justify;
 }
 
@@ -14,7 +17,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("../images/chobe-leopard-cover.png");
   background-repeat: none;
   background-size: cover;
